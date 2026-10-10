@@ -4,6 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ASNA Tax Client Manager</title>
+<meta name="description" content="ASNA Tax Client Manager — secure per-client PIN files for tax practice. Interview, documents, wealth reconciliation, reports.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ASNA Tax Client Manager">
+<meta property="og:title" content="ASNA Tax Client Manager">
+<meta property="og:description" content="Secure per-client PIN files for tax practice — interview, documents, wealth reconciliation, reports.">
+<meta property="og:url" content="https://asna-tax-management.vercel.app/">
+<meta property="og:image" content="https://asna-tax-management.vercel.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ASNA Tax Client Manager">
+<meta name="twitter:description" content="Secure per-client PIN files for tax practice — interview, documents, wealth reconciliation, reports.">
+<meta name="twitter:image" content="https://asna-tax-management.vercel.app/og-image.png">
 <style>
 /* ASNA Tax Client Manager — premium corporate theme */
 :root{
@@ -270,7 +283,7 @@ select.input-sm{min-width:200px}
     <p class="muted" id="welcome-sub">Choose an option to continue.</p>
     <div id="welcome-main" style="margin-top:6px"></div>
     <p class="muted small" id="w-status" style="min-height:18px;margin:10px 0 0;color:var(--gold)"></p>
-    <p class="muted small" id="welcome-ver" style="margin-top:6px;margin-bottom:0">v1.9.2 · client PIN login (single file)</p>
+    <p class="muted small" id="welcome-ver" style="margin-top:6px;margin-bottom:0">v1.9.3 · client PIN login (single file)</p>
   </div>
 </div>
 
@@ -967,7 +980,7 @@ const CLIENT_ROUTES = ['interview', 'documents', 'income', 'assets', 'wealth', '
 
 // Single source of truth for the running code version (shown in Diagnostics;
 // if this differs from the HTML version tag, the browser mixed cached files).
-const APP_VERSION = '1.9.2';
+const APP_VERSION = '1.9.3';
 let lastAppError = null;
 
 /* ============================== boot ============================== */
